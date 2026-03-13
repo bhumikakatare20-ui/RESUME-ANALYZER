@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>AI Resume Analyzer</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Resume Analyzer</h1>
+
+<p>Upload your resume and our AI will analyze your skills and give a score.</p>
+
+<form action="/analyze" method="post" enctype="multipart/form-data">
+
+<input type="file" name="resume" required>
+<br><br>
+
+<button type="submit">Analyze Resume</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
